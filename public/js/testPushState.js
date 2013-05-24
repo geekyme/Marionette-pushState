@@ -119,7 +119,6 @@ App.TestItem = function(){
 		if(Models.length > 0){
 			console.log('using bootstrapped models');
 			// need to parse the stringified models
-			Models = JSON.parse(Models);
 			var testItems = new TestItem.Collection(Models);
 			testView = new TestItem.CollectionView({collection: testItems})
 			testView.attachToView();			

@@ -12,7 +12,7 @@ var serverConfig = {
 };
 
 var server = new orientdb.Server(serverConfig);
-var DB = new orientdb.GraphDb("testPushState", server, dbConfig);
+var DB = new orientdb.GraphDb("yourDB", server, dbConfig);
 
 DB.open(function(err) {
     if (err) {

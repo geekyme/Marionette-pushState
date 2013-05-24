@@ -25,5 +25,4 @@ In both cases, views are created but in different ways. Hope this helps people w
 * For windows, in app.js line 9 - make sure its '\\views'
 * For linux, in app.js line 9 - make sure its '/views'
 * The above two is because of a problem in the package walkdir in templatizer. Changing the slashes seems to help.
-* Do remember to adjust /models/db.js with your own database setup
-* After that, adjust /models/item.js with your own API method
+* By default, I've configured a database in memory. If you want persistent records, do remember to adjust /models/db.js with your own database setup. After that, adjust /models/item.js with your own API method
