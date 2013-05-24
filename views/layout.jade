@@ -1,0 +1,22 @@
+!!!
+html(lang="en")
+	head
+		block title
+		block meta
+			meta(charset="utf-8")
+			meta(name="viewport", content="width=device-width, initial-scale=1.0")		
+		block css
+			link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Open+Sans:300')
+			link(rel='stylesheet', href='/lib/bootstrap-2.3.0/css/bootstrap.min.css')
+			link(rel='stylesheet', href='/lib/bootstrap-2.3.0/css/bootstrap-responsive.min.css')			
+			link(rel='stylesheet', href='/lib/font-awesome-3.1.1/css/font-awesome.css')
+			//- link(rel='stylesheet', href='/css/style.css')			
+	body(style="zoom:1;")
+		block content
+		block js
+			script(src='/lib/jquery-1.9.1.min.js')
+			script(src='/lib/bootstrap-2.3.0/js/bootstrap.min.js')
+			script(src="/lib/json2.js")
+			script(src="/lib/underscore-min.js")
+			script(src="/lib/backbone-min.js")
+			script(src="/lib/backbone.marionette.min.js")

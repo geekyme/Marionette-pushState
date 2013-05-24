@@ -1,0 +1,19 @@
+extends layout
+
+block append title
+	title PushState example
+
+block content
+	h1 hello world
+	#testPushState
+		a(href="#showItems") get list of items
+		ul#items
+	
+block append js
+	script(src='/js/templates.js')
+	//- bootstrapped models
+	script
+		// empty
+		Models = [];
+	script(src='/js/testPushState.js')
+		

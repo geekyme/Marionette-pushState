@@ -1,0 +1,16 @@
+{
+  "name": "marionette-pushstate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "3.x.x",
+    "jade": "*",
+    "helmet": "0.0.9",
+    "orientdb": ">= 0.9.x",
+    "stylus": "*",
+    "templatizer":">= 0.0.10"
+  }
+}
