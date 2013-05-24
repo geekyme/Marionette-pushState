@@ -20,6 +20,8 @@ In both cases, views are created but in different ways. Hope this helps people w
 
 
 #### important
-* The app is only tested on Windows 7. No guarantees that it will work on linux machines, because I had to alter the templatizer.js library to run on Windows 7. 
+* For windows, in app.js line 9 - make sure its '\\views'
+* For linux, in app.js line 9 - make sure its '/views'
+* The above two is because of a problem in the package walkdir in templatizer. Changing the slashes seems to help.
 * Do remember to adjust /models/db.js with your own database setup
 * After that, adjust /models/item.js with your own API method
