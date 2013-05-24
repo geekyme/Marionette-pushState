@@ -20,5 +20,6 @@ In both cases, views are created but in different ways. Hope this helps people w
 
 
 #### important
+* The app is only tested on Windows 7. No guarantees that it will work on linux machines, because I had to alter the templatizer.js library to run on Windows 7. 
 * Do remember to adjust /models/db.js with your own database setup
 * After that, adjust /models/item.js with your own API method
