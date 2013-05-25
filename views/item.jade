@@ -1,2 +1,3 @@
-li(data-id="#{item.id}")
-	p= item.label
+include mixins/itemMixin
+
+mixin itemCreator(item)
