@@ -1,7 +1,8 @@
 # Marionette PushState
 This is a demo app built to improve my own understanding of Backbone.Marionette, along with how to use Backbone.js pushState in conjunction with a node.js express server. I tried to look for a few examples to do it but I could not find any so I made my own example. I did not put in much effort in designing the app, simply wanted to experiment with Marionette functionality, so pardon the bad design. There may still be some bugs though. Feel free to contribute.
 
-DEMO: http://pin.gs:3000/
+[DEMO](http://pin.gs:3000/)
+[For a more advanced example](https://github.com/geekyme/openshop)
 
 In this app, I demonstrate progressive enhancement with the use of pushState. 
 
